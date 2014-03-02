@@ -10,6 +10,8 @@
 
 @interface TableCekkCell : UITableViewCell
 
+//what UI elements are we going to have in the table cells? these are outlets..
+
 @property (strong, nonatomic) IBOutlet UILabel * TitleLabel;
 @property (strong, nonatomic) IBOutlet UILabel * DescriptionLabel;
 @property (strong, nonatomic) IBOutlet UILabel * PriceLabel;
