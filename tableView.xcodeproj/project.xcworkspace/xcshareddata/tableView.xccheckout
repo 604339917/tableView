@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F13C508C-1FA7-4055-AF55-D9CD3E1695F7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>tableView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>545122C1-20E8-4E25-9DAD-AC1D19EB7F4E</key>
+		<string>https://github.com/jacob-webber/flea.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>tableView/tableView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>545122C1-20E8-4E25-9DAD-AC1D19EB7F4E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jacob-webber/flea.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>545122C1-20E8-4E25-9DAD-AC1D19EB7F4E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>545122C1-20E8-4E25-9DAD-AC1D19EB7F4E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>programming</string>
+		</dict>
+	</array>
+</dict>
+</plist>
