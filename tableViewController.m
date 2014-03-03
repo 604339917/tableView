@@ -3,6 +3,7 @@
 
 //import the tablecekkcell class so we have access to its class variables here.
 #import "TableCekkCell.h"
+#import "ViewController1.h"
 
 
 @interface tableViewController ()
@@ -35,7 +36,7 @@
     
     //Lets parse some JSON from our web service, serialise it (which puts it into an array with nested NSDictionarys.
     
-    NSURL *jakesURL = [NSURL URLWithString: @"http://localhost:3000/products.json"];
+    NSURL *jakesURL = [NSURL URLWithString: @"http://10.1.1.2:3000/products.json"];
     
     NSData* data = [NSData dataWithContentsOfURL:jakesURL];
     
@@ -112,6 +113,16 @@
     return cell;
 }
 
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    ViewController1 *detailviewcontroller = [segue destinationViewController];
+    
+    NSIndexPath *myIndexPath = [self.tableView indexPathForSelectedRow];
+    
+    int row = [myIndexPath row];
+    
+    detailviewcontroller.DetailModal = @[_Title [row], _Description [row], _Price [row], _Image [row]];
+}
 
 
 @end
