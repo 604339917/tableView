@@ -22,6 +22,7 @@
 		239A93E318C30ECF004C3484 /* tableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 239A93E218C30ECF004C3484 /* tableViewTests.m */; };
 		239A93EE18C30F49004C3484 /* tableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239A93ED18C30F49004C3484 /* tableViewController.m */; };
 		239A93F118C310A4004C3484 /* TableCekkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 239A93F018C310A4004C3484 /* TableCekkCell.m */; };
+		D51EE43018C49E4200F92550 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = D51EE42F18C49E4200F92550 /* ViewController1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		239A93ED18C30F49004C3484 /* tableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableViewController.m; sourceTree = SOURCE_ROOT; };
 		239A93EF18C310A4004C3484 /* TableCekkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCekkCell.h; sourceTree = "<group>"; };
 		239A93F018C310A4004C3484 /* TableCekkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCekkCell.m; sourceTree = "<group>"; };
+		D51EE42E18C49E4200F92550 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		D51EE42F18C49E4200F92550 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				239A93ED18C30F49004C3484 /* tableViewController.m */,
 				239A93EF18C310A4004C3484 /* TableCekkCell.h */,
 				239A93F018C310A4004C3484 /* TableCekkCell.m */,
+				D51EE42E18C49E4200F92550 /* ViewController1.h */,
+				D51EE42F18C49E4200F92550 /* ViewController1.m */,
 				239A93CF18C30ECF004C3484 /* Images.xcassets */,
 				239A93BE18C30ECF004C3484 /* Supporting Files */,
 			);
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51EE43018C49E4200F92550 /* ViewController1.m in Sources */,
 				239A93F118C310A4004C3484 /* TableCekkCell.m in Sources */,
 				239A93EE18C30F49004C3484 /* tableViewController.m in Sources */,
 				239A93C818C30ECF004C3484 /* AppDelegate.m in Sources */,
