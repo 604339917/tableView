@@ -51,7 +51,7 @@
         [_Description addObject:[new objectForKey:@"description"]];
         [_Title addObject:[new objectForKey:@"name"]];
         
-        NSString * price = [NSString stringWithFormat:@"%@", [new objectForKey:@"price"]];
+        NSString * price = [NSString stringWithFormat:@"$%@.00", [new objectForKey:@"price"]];
         
         [_Price addObject: price];
         [_Image addObject:[new objectForKey:@"image"]];
